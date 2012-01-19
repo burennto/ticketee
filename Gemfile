@@ -13,10 +13,10 @@ gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.1.5'
   gem 'coffee-rails', '~> 3.1.1'
-  gem 'dynamic_form'
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'dynamic_form'
 gem 'jquery-rails'
 
 group :test, :development do
@@ -24,10 +24,9 @@ group :test, :development do
 end
 
 group :test do
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', '1.0.6'
   gem 'capybara'
   gem 'database_cleaner'
-  gem 'cucumber-rails-training-wheels'
   gem 'machinist', '>= 2.0.0.beta2'
 end
 
