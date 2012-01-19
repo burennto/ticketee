@@ -28,6 +28,7 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'cucumber-rails-training-wheels'
+  gem 'machinist', '>= 2.0.0.beta2'
 end
 
 # To use ActiveModel has_secure_password
