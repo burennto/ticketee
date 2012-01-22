@@ -28,6 +28,7 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'machinist', '~> 2.0'
+  gem 'email_spec'
 end
 
 # To use ActiveModel has_secure_password
